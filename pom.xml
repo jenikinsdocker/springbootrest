@@ -16,6 +16,7 @@
 	<description>Spring Boot Rest Application</description>
 	<properties>
 		<java.version>17</java.version>
+		<start-class>com.boot.rest.SpringbootRestApplication</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
