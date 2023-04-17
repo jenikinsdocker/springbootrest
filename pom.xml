@@ -11,6 +11,7 @@
 	<groupId>com.boot.rest</groupId>
 	<artifactId>SpringbootRestApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>SpringbootRestApplication</name>
 	<description>Spring Boot Rest Application</description>
 	<properties>
@@ -50,6 +51,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>springboot-rest</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
