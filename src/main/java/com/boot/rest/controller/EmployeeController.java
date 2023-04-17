@@ -37,6 +37,7 @@ public class EmployeeController {
 	return new ResponseEntity<Employee>(emp,HttpStatus.NO_CONTENT);
 	}
 	
+	@SuppressWarnings("unchecked")
 	@DeleteMapping("/delete")
 	public ResponseEntity<Employee> deleteEmployee(@RequestBody Employee employee){
 	employeeService.deleteEmployeeDetails(employee);
